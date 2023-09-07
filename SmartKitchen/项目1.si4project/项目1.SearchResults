@@ -1,0 +1,4 @@
+---- vApplicationGetIdleTaskMemory Matches (3 in 3 files) ----
+project.build_log.htm (Objects) line 108 : .\Objects\project.axf: Error: L6218E: Undefined symbol vApplicationGetIdleTaskMemory (referred from tasks.o).
+task.h (FreeRTOS\include) line 1681 :     void vApplicationGetIdleTaskMemory( StaticTask_t ** ppxIdleTaskTCBBuffer,
+vTaskStartScheduler in tasks.c (FreeRTOS) :         vApplicationGetIdleTaskMemory( &pxIdleTaskTCBBuffer, &pxIdleTaskStackBuffer, &ulIdleTaskStackSize );
